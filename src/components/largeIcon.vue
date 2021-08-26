@@ -79,9 +79,7 @@ export default {
     justify-content: space-between;
   }
   .itemDiv {
-   
     flex: none;
-   
     margin: 0;
   }
   .itemDiv p {
