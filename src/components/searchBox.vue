@@ -26,7 +26,7 @@
           </p>
         </div>
         <div class="searchBox_input_div">
-          <input type="text" v-model="content" />
+          <input type="text" v-model="content" @keyup.enter="search()"/>
         </div>
 
         <mu-button color="primary" @click="search()">
