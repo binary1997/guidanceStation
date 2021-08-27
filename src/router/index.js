@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 Vue.use(VueRouter)
 
 const routes = [
+  
   {
     path: '/',
     name: 'Home',
@@ -21,6 +22,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  
   routes
 })
 

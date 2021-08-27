@@ -2,9 +2,12 @@
   "name": "browserhomepage",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/binary1997/guidanceStation.git",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -16,6 +19,7 @@
     "@vue/cli-plugin-babel": "^4.5.0",
     "@vue/cli-plugin-router": "^4.5.0",
     "@vue/cli-service": "^4.5.0",
+    "gh-pages": "^3.2.3",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [

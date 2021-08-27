@@ -30,7 +30,7 @@
         </div>
 
         <mu-button color="primary" @click="search()">
-          <mu-icon left value="search"></mu-icon>
+          
           搜索
         </mu-button>
       </div>
@@ -113,10 +113,11 @@ export default {
 
 .searchBox_input_div {
   flex: 1;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #2595f5;
    padding: 5px ;
    margin: 0 10px;
    height: 36px;
+   border-radius: 5px;
 }
 .searchBox_input_div input {
   background: none;
@@ -129,7 +130,7 @@ export default {
 .searchBox_navActive {
   background: #ffffff;
   box-shadow: none;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #2595f5;
 }
 
 @media screen and (max-width: 500px) {
