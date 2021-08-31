@@ -90,10 +90,10 @@ export default {
   height: 36px;
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: inset 13px 13px 26px #d9d9d9, inset -13px -13px 26px #ffffff;
+  
   margin: 0 5px;
   line-height: 36px;
-   border: 1px solid #fff;
+   border: 1px solid #d9d9d9;
 }
 
 .searchBox_nav_p {
